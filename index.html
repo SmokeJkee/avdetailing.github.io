@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -75,10 +76,10 @@
     </section>
     <section class="services">
         <div class="container">
-            <h2>Популярные услуги</h2>
+            <h2 >Популярные услуги</h2>
             <div class="wrap">
                 <div class="services__item">
-                    <div class="front front_1">
+                    <div class="front front_1" data-aos="fade-right">
                         <div class="services__item-info">Автокерамика</div>
                         <a href="#" class="details_mobile">Подробнее</a>
                     </div>
@@ -88,7 +89,7 @@
                     </div>
                 </div>
                 <div class="services__item">
-                    <div class="front front_2">
+                    <div class="front front_2" data-aos="fade-left">
                         <div class="services__item-info">Защитные пленки</div>
                         <a href="#" class="details_mobile">Подробнее</a>
                     </div>
@@ -98,7 +99,7 @@
                     </div>
                 </div>
                 <div class="services__item">
-                    <div class="front front_3">
+                    <div class="front front_3" data-aos="fade-up-right">
                         <div class="services__item-info">Полировка</div>
                         <a href="#" class="details_mobile">Подробнее</a>
                     </div>
@@ -108,7 +109,7 @@
                     </div>
                 </div>
                 <div class="services__item">
-                    <div class="front front_4">
+                    <div class="front front_4" data-aos="fade-up-left">
                         <div class="services__item-info">Химчистка</div>
                         <a href="cleaners.html" class="details_mobile">Подробнее</a>
                     </div>
@@ -122,9 +123,9 @@
     </section>
     <section class="consultation">
         <div class="container">
-            <div class="consultation__descr">У Вас есть вопросы?<br>
+            <div class="consultation__descr" data-aos="fade-right">У Вас есть вопросы?<br>
                 Оставьте заявку и мы с вами свяжемся!</div>
-                <form class="feed-form" action="#">
+                <form class="feed-form" action="#" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <input name="name" placeholder="Ваше имя" type="text">
                     <input name="phone" required placeholder="Ваш номер телефона" type="tel">
                     <input name="mail" placeholder="Ваш e-mail" type="e-mail">
@@ -134,8 +135,9 @@
     </section>
     <section class="carousel">
         <div class="container">
-            <h2>Наши работы</h2>
-            <div class="carousel__inner">
+            <h2 data-aos="fade-up" data-aos-anchor-placement="center-center">Наши работы</h2>
+            <div class="carousel__inner" data-aos="fade-up"
+            data-aos-anchor-placement="top-center">
                 <div><img src="img/slider1.jpg" alt="slide"></div>
                 <div><img src="img/slider2.jpg" alt="slide"></div>
                 <div><img src="img/slider3.jpg" alt="slide"></div>
@@ -158,6 +160,7 @@
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
 
