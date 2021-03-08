@@ -15,7 +15,7 @@
     <section class="promo">
         <div class="container">
             <header class="header">
-                <a href='#' class="header_logo">
+                <a href='#' class="header__logo">
                     <img src="img/Logo.png" alt="logo">
                 </a>
                 <div class="header__social">
@@ -92,32 +92,44 @@
                 (англ. auto detailing, в переводе "детализация"), чаще сокращаемый до «детейлинг» — комплекс высокотехнологических операций по тщательному и полному уходу за автомобилем.</div>
         </div>
     </section>
-    <section class="popular">
+    <section class="services">
         <div class="container">
             <h2>Популярные услуги</h2>
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 offset-lg-0 col-md-6 offset-md-3 col-10">
-                    <div class="popular_box popular_box_1">
-                        <div class="popular_text">АВТОКЕРАМИКА</div>
-                        <div class="opacity"><a href="#" class="popular_subtext">Подробнее</a></div>
-                        </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 offset-lg-0 col-md-6 offset-md-3 col-10">
-                    <div class="popular_box popular_box_2">
-                        <div class="popular_text">ЗАЩИТНЫЕ ПЛЕНКИ</div>
-                        <div class="opacity"><a href="#" class="popular_subtext">Подробнее</a></div>
+            <div class="wrap">
+                <div class="services__item">
+                    <div class="front front_1">
+                        <div class="services__item-info">Автокерамика</div>
+                    </div>
+                    <div class="back">
+                        <div class="services__item-info_back">Автокерамика (нанокерамика) – это популярный вариант декоративно-защитного покрытия кузова автомобиля. Она придаст блеск лакокрасочному покрытию, защищает его от царапин, потертостей и выгорания.</div>
+                        <a href="#" class="details">Подробнее</a>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 offset-lg-0 col-md-6 offset-md-3 col-10">
-                    <div class="popular_box popular_box_3">
-                        <div class="popular_text">ПОЛИРОВКА</div>
-                        <div class="opacity"><a href="#" class="popular_subtext">Подробнее</a></div>
+                <div class="services__item">
+                    <div class="front front_2">
+                        <div class="services__item-info">Защитные пленки</div>
+                    </div>
+                    <div class="back">
+                        <div class="services__item-info_back">Главная задача защитной антигравийной пленки, как и следует из ее названия, — защита лакокрасочного покрытия от царапин, сколов и прочих «мелких неприятностей».</div>
+                        <a href="#" class="details">Подробнее</a>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 offset-lg-0 col-md-6 offset-md-3 col-10">
-                    <div class="popular_box popular_box_4">
-                        <div class="popular_text">ХИМЧИСТКА</div>
-                        <div class="opacity"><a href="#" class="popular_subtext">Подробнее</a></div>
+                <div class="services__item">
+                    <div class="front front_3">
+                        <div class="services__item-info">Полировка</div>
+                    </div>
+                    <div class="back">
+                        <div class="services__item-info_back">Полировка кузова автомобиля –  это устранение мелких повреждений, царапин, удаление мельчайших неровностей лакокрасочного покрытия и защита поверхности автомобиля от воздействия внешних факторов.</div>
+                        <a href="#" class="details">Подробнее</a>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="front front_4">
+                        <div class="services__item-info">Химчистка</div>
+                    </div>
+                    <div class="back">
+                        <div class="services__item-info_back">Химчистка автомобиля - это процесс глубокой очистки всех поверхностей от различных загрязнений, пятен и пыли при помощи специальных моющих средств и инструментов. Химчистка позволяет сохранить салон свежим, приятным и ухоженным.</div>
+                        <a href="#" class="details">Подробнее</a>
                     </div>
                 </div>
             </div>
@@ -145,9 +157,17 @@
                 </div>
         </div>
     </section>
-    <section class="location">
-        <div id="map">
-            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac4b79827ef329aa73dbada96c7c5c2a5bca484289b009881a19225ab8e5b35b2&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+    <section class="footer">
+        <div class="footer__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2004.3924266558436!2d30.295268616170553!3d59.8426227768025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963acfa5096271%3A0x50976dd12570a467!2z0JrRg9Cx0LjQvdGB0LrQsNGPINGD0LsuLCA3OCwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5NjI0MA!5e0!3m2!1sru!2sru!4v1615157948674!5m2!1sru!2sru" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="footer__info">
+            <div class="footer__adress">Ждем вас в городе Санкт-Петербурге<br>по адресу ул.Кубинская 78и.</div>
+            <div class="footer__social">
+                <a href="#" class="insagramm"><img src="icons/insta.png" alt="#" class="instargamm"></a>
+                <a href="#" class="whatsapp"><img src="icons/whatsapp.png" alt="#" class="whatsapp"></a>
+            </div>
+            
         </div>
     </section>
 
